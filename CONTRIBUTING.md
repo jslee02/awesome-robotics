@@ -1,19 +1,34 @@
-# Contributions Guidelines
+# Contribution Guidelines
 
-Before submitting pull request please :
+## Suggesting a New Resource
 
-- Search previous suggestions before making a new one, as yours may be a duplicate.
-- Make sure the list is useful before submitting. That implies it has enough content and every item has a good succinct description.
-- Make an individual pull request for each suggestion.
-- Use [title-casing](http://titlecapitalization.com) (AP style).
-- Use the following format: `[List Name](link)`
-- Link additions should be added to the bottom of the relevant category.
-- New categories or improvements to the existing categorization are welcome.
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-- The pull request and commit should have a useful title.
-- The body of your commit message should contain a link to the repository.
-- Check that it's not already in the list
-- Make sure that it's not an outdated resource that is no longer useful
-- It doesn't link to an illegal source, like a book that is illegally distributed
-- **Finally** please remember that every link and contribution no matter how small it is, is highly appreciated and encouraged as it helps gather all the resources in one place.
+Please use the GitHub issue form for new suggestions:
+
+- Open `Suggest a Resource`
+- Fill in the category, description, and repository fields as completely as you can
+- Search existing issues and entries first to avoid duplicates
+
+## Fixing an Existing Entry
+
+This repository uses a data-first workflow:
+
+- YAML files are the source of truth
+- `README.md` is generated from YAML data
+
+If you are opening a direct PR:
+
+1. Edit the relevant YAML/source file, not `README.md`
+2. Keep entries in the correct section and order
+3. Run `python3 scripts/validate_entries.py`
+4. Run `python3 scripts/generate_readme.py`
+5. Commit the regenerated `README.md`
+6. Sign off commits with `git commit --signoff`
+
+## General Rules
+
+- Keep descriptions short, factual, and easy to scan
+- Use the appropriate category and subsection
+- Check spelling and grammar
+- Remove trailing whitespace
+
+Thank you for the contribution.

@@ -17,4 +17,9 @@ exclude = [
   "^https?://www\\.researchgate\\.net",
   "^https?://citeseerx\\.ist\\.psu\\.edu",
   "^https?://web\\.stanford\\.edu",
+  "^https://courses\\.edx\\.org/courses/",
+  "^https://www\\.coursera\\.org/specializations/robotics$",
+  "^https://www\\.edx\\.org/course/autonomous-navigation-flying-robots-tumx-autonavx-0$",
+  "^https://www\\.edx\\.org/course/robot-mechanics-control-part-i-snux-snu446-345-1x$",
+  "^https://www\\.edx\\.org/course/robot-mechanics-control-part-ii-snux-snu446-345-2x$",
 ]
