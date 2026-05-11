@@ -1,12 +1,22 @@
-Awesome Robotics
-================
+# Awesome Robotics
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This is a list of various books, courses and other resources for robotics. It's an attempt to gather useful material in one place for everybody who wants to learn more about the field.
 
+## Contents
 
-### Courses ###
+- [Courses](#courses)
+- [Books](#books)
+- [Software and Libraries](#software-and-libraries)
+- [Papers and Journals](#papers-and-journals)
+- [Competitions](#competitions)
+- [Companies](#companies)
+- [Misc](#misc)
+- [Related awesome lists](#related-awesome-lists)
+
+## [Courses](#contents)
+
 * [Autonomous Mobile Robots](https://courses.edx.org/courses/course-v1:ETHx+AMRx+1T2015/info) **edX**
 * [Underactuated Robotics](https://courses.edx.org/courses/course-v1:MITx+6.832x_2+3T2015/info) **edX**
 * [Autonomous Mobile Robots](https://courses.edx.org/courses/ETHx/AMRx/1T2014/info) **edX**
@@ -21,30 +31,30 @@ This is a list of various books, courses and other resources for robotics. It's 
 * [Introduction to Robotics](https://see.stanford.edu/Course/CS223A) **Stanford University**
 * [Robotics Specialization by GRASP Lab](https://www.coursera.org/specializations/robotics) **University of Pennsylvania**
 
+## [Books](#contents)
 
-### Books ###
 * [Probabilistic Robotics (Intelligent Robotics and Autonomous Agents series)](http://www.amazon.com/Probabilistic-Robotics-Intelligent-Autonomous-Agents/dp/0262201623/)  :dollar:
 * [Introduction to Autonomous Mobile Robots (Intelligent Robotics and Autonomous Agents series)](http://www.amazon.com/Introduction-Autonomous-Mobile-Intelligent-Robotics/dp/0262015358/)  :dollar:
 * [Springer Handbook of Robotics](http://www.amazon.com/Springer-Handbook-Robotics-Bruno-Siciliano/dp/354023957X)  :dollar:
 * [Planning Algorithms](http://planning.cs.uiuc.edu/)
-* [A gentle introduction to ROS](https://cse.sc.edu/~jokane/agitr/agitr-letter.pdf)
+* [A gentle introduction to ROS](https://jokane.net/agitr/)
 * [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/mlswiki/?title=First_edition)
 * [Learning Computing With Robots](http://wiki.roboteducation.org/Introduction_to_Computer_Science_via_Robots)
 * [Robotics, Vision and Control: Fundamental Algorithms in MATLAB (Springer Tracts in Advanced Robotics)](http://www.amazon.com/Robotics-Vision-Control-Fundamental-Algorithms/dp/3642201431)  :dollar:
-* [INTECH Books](http://www.intechopen.com/subjects/robotics)
+* [INTECH Books](https://www.intechopen.com/subjects/22)
 * [Introduction to Autonomous Robots](https://github.com/correll/Introduction-to-Autonomous-Robots/releases)
 * [Principles of Robot Motion: Theory, Algorithms, and Implementations ](https://www.amazon.com/Principles-Robot-Motion-Implementations-Intelligent/dp/0262033275)
 * [Introduction to Modern Robotics: Mechanics, Planning, and Control](http://hades.mech.northwestern.edu/index.php/LynchAndPark) [[pdf](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf)]
 
+## [Software and Libraries](#contents)
 
-### Software and Libraries ###
 [**Gazebo**](http://gazebosim.org/)
 Robot Simulator
 
 [**ROS**](http://www.ros.org/)
 The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.
 
-[**RobWork**](http://www.robwork.dk/jrobwork/)
+[**RobWork**](https://www.robwork.dk/)
 RobWork is a collection of C++ libraries for simulation and control of robot systems. RobWork is used for research and education as well as for practical robot applications.
 
 [**MRPT**](http://www.mrpt.org/)
@@ -71,7 +81,7 @@ Yet Another Robot Platform.
 [**V-REP**](http://www.coppeliarobotics.com/)
 Robot simulator, 3D, source available, Lua scripting, APIs for C/C++, Python, Java, Matlab, URBI, 2 physics engines, full kinematic solver.
 
-[**Webots**](https://www.cyberbotics.com/overview)
+[**Webots**](https://cyberbotics.com/)
 Webots is a development environment used to model, program and simulate mobile robots.
 
 [**Drake**](http://drake.mit.edu/)
@@ -83,8 +93,8 @@ An Internet-accessible simulation system that allows the simulation of robots co
 [**The Player Project**](http://playerstage.sourceforge.net/)
 Free Software tools for robot and sensor applications 
 
+## [Papers and Journals](#contents)
 
-### Papers and Journals ###
 * [Sagepub - International Journal of robotics research](http://www.ijrr.org/)
 * [Journal of field robotics](http://www.journalfieldrobotics.org/Home.html)
 * [Optimization Based Controller Design and Implementation for the
@@ -93,8 +103,8 @@ Atlas Robot in the DARPA Robotics Challenge Finals](https://www.cs.cmu.edu/~cga/
 * [International Journal of Social Robotics](http://www.springer.com/engineering/robotics/journal/12369)
 * [Frontiers in Robotics and AI](http://journal.frontiersin.org/journal/robotics-and-ai)
 
+## [Competitions](#contents)
 
-### Competitions ###
 * [ICRA Robot Challenges](http://icra2015.org/conference/robot-challenges)
 * [RobotChallenge](http://www.robotchallenge.org/)
 * [DARPA Robotics Challenge](http://www.theroboticschallenge.org/)
@@ -102,25 +112,26 @@ Atlas Robot in the DARPA Robotics Challenge Finals](https://www.cs.cmu.edu/~cga/
 * [First Robotics Competition](http://www.firstinspires.org/robotics/frc)
 * [RoboCup](http://www.robocup.org/)
 * [Eurobot](http://www.eurobot.org/) International Students Robotics Contest
-* [RoboMasters](http://www.robomasters.com/en/)
+* [RoboMasters](https://www.robomaster.com/en-US)
 * [RoboSoft, Grand Challenge](http://www.robosoftca.eu/)
 
-### Companies ###
+## [Companies](#contents)
+
 * [Boston Dynamics](http://www.bostondynamics.com/) robotics R&D company, creator of the state of the art [Atlas](https://www.youtube.com/watch?v=rVlhMGQgDkY) and [Spot](https://www.youtube.com/watch?v=M8YjvHYbZ9w) robots
 * [iRobot](http://www.irobot.com/) manufacturer of the famous [Roomba](https://en.wikipedia.org/wiki/Roomba) robotic vacuum cleaner
 * [Aldebaran Robotics](https://www.aldebaran.com/en) creator of the [NAO robot](https://www.youtube.com/watch?v=nNbj2G3GmAo)
 * [ABB Robotics](http://new.abb.com/products/robotics) the largest manufacturer of industrial robots
 * [KUKA Robotics](http://www.kuka-robotics.com/en/) major manufacturer of industrial robots targeted at factory automation
 * [FANUC](http://www.fanucamerica.com/) industrial robots manufacturer with the biggest install base
-* [Rethink Robotics](http://www.rethinkrobotics.com/) creator of the collaborative robot [Baxter](https://www.youtube.com/watch?v=fCML42boO8c)
+* [Rethink Robotics](http://www.rethinkrobotics.com/) creator of the collaborative robot [Baxter](https://en.wikipedia.org/wiki/Baxter_%28robot%29)
 * [DJI](http://www.dji.com/) industry leader in drones for both commerical and industrial needs.
 * [The construct sim](http://www.theconstructsim.com/)  A cloud based tool for building modern, future-proof robot simulations. 
 * [Fetch Robotics](http://www.fetchrobotics.com/) A robotics startup in San Jose, CA building the future of e-commerce fulfillment and R&D robots.
 
+## [Misc](#contents)
 
-### Misc ###
 * [IEEE Spectrum Robotics](http://spectrum.ieee.org/robotics) robotics section of the IEEE Spectrum magazine
-* [MIT Technology Review Robotics](https://www.technologyreview.com/c/robotics/) robotics section of the MIT Technology Review magazine
+* [MIT News Robotics](https://news.mit.edu/topic/robotics) robotics section of MIT News
 * [reddit robotics subreddit](https://www.reddit.com/r/robotics/)
 * [RosCON conference (video talks included)](http://roscon.ros.org/2015/)
 * [Carnegie Mellon Robotics Academy](http://education.rec.ri.cmu.edu/)
@@ -131,11 +142,19 @@ Atlas Robot in the DARPA Robotics Challenge Finals](https://www.cs.cmu.edu/~cga/
 * [47 Programmable robotic kits](http://www.intorobotics.com/47-programmable-robotic-kits/)
 * [Robotics slack group](https://robotics-and-ai.slack.com/shared_invite/MzA1ODYzMDc2MTctMTQ1OTM0NDU5MS00MDgxYTY1ZDAy)
 
+## [Related awesome lists](#contents)
 
-### Related awesome lists ###
 * [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
 * [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
 * [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 * [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 * [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
 * [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl/)
+
+## [Contributing](#contents)
+
+Contributions are very welcome. Please read the [contribution guidelines](CONTRIBUTING.md) first. Also, please feel free to report any error.
+
+## [License](#contents)
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
